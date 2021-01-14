@@ -1,0 +1,94 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header {
+    padding: 2% 2%;
+    margin: 0 auto;
+    height: 35%;
+    background-image: url('../assets/backgorund.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.data {
+    padding: 3% 3%;
+    margin: 0 auto;
+    height: 45%;
+}
+
+p {
+    font-family: "Sans-serif", serif;
+}
+
+h3, h2 {
+    color: rgb(16, 68, 102);
+}
+
+.dropdown {
+    float: right;
+    margin: 0 10px;
+}
+
+.skillbox {
+    border-radius: 35px;
+}
+
+.skills {
+    border-radius: 35px;
+    color: rgb(19, 1, 1);
+}
+
+.table {
+    margin-left: 15px;
+    width: 100%;
+}
+
+.green {
+    background-color: rgb(130, 172, 74);
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.headercolor {
+    background-color: rgba(0, 153, 255, 0.363);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 6%;
+    padding-top: 1%;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(14, 51, 82);
+    color: white;
+}
+
+.greencolor {
+    color: rgb(130, 172, 74);
+    margin-right: 5px;
+}
+
+.orangecolor {
+    color: orange;
+    margin-right: 5px;
+}
+
+.redcolor {
+    color: red;
+    margin-right: 5px;
+}
+
+.d-flex {
+    display: flex;
+}
